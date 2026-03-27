@@ -96,8 +96,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center">
             <FadeIn className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1541888081622-3a42cbc379b2?q=80&w=2070&auto=format&fit=crop" 
-                alt="Concrete pouring team" 
+                src="/home about.jpg" 
+                alt="Advance Concrete Service Team" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
