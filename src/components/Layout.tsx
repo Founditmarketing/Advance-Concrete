@@ -44,9 +44,11 @@ export default function Layout() {
       <nav className={`fixed w-full z-40 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2 top-0' : 'bg-transparent py-6 md:top-[36px] top-0'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex items-center cursor-pointer">
-            <span className={`font-display font-bold tracking-tight uppercase transition-all duration-300 ${isScrolled ? 'text-xl text-brand-black' : 'text-3xl text-white'}`}>
-              Advance <span className="text-brand-red">Concrete</span>
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="Advance Concrete KC Logo" 
+              className={`transition-all duration-300 object-contain ${isScrolled ? 'h-12' : 'h-16 brightness-0 invert'}`}
+            />
           </Link>
 
           {/* Desktop Menu */}
@@ -125,9 +127,13 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
-              <span className="font-display font-bold text-2xl tracking-tight text-white uppercase mb-4 block">
-                Advance <span className="text-brand-red">Concrete</span>
-              </span>
+              <Link to="/" className="inline-block mb-4">
+                <img 
+                  src="/logo.png" 
+                  alt="Advance Concrete KC Logo" 
+                  className="h-20 w-auto object-contain brightness-0 invert" 
+                />
+              </Link>
               <p className="text-gray-400 max-w-sm">
                 Your Quality Concrete Experts providing turnkey solutions with over 15 years of industry expertise. Free estimates and thorough measurements to guarantee accuracy.
               </p>
