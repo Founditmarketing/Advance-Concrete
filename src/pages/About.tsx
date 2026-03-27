@@ -18,12 +18,14 @@ export default function About() {
             <FadeIn>
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-red z-0"></div>
-                <img 
-                  src="/residential 5.jpg" 
-                  alt="Advance Concrete Service Installation" 
-                  className="relative z-10 w-full h-auto object-cover shadow-2xl"
-                  referrerPolicy="no-referrer"
-                />
+                <div className="relative z-10 overflow-hidden group shadow-2xl">
+                  <img 
+                    src="/residential 5.jpg" 
+                    alt="Advance Concrete Service Installation" 
+                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
                 <div className="absolute -bottom-8 -right-8 bg-brand-black text-white p-8 z-20 hidden md:block">
                   <p className="font-display text-5xl font-bold text-brand-red mb-1">15+</p>
                   <p className="font-bold uppercase tracking-wider text-sm">Years of<br/>Expertise</p>

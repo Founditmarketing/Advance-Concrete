@@ -21,12 +21,14 @@ const ServiceLayout = ({ title, icon: Icon, description, image }: { title: strin
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <FadeIn>
-            <img 
-              src={image} 
-              alt={title} 
-              className="w-full h-auto object-cover shadow-2xl border-l-8 border-brand-red"
-              referrerPolicy="no-referrer"
-            />
+            <div className="overflow-hidden group shadow-2xl border-l-8 border-brand-red">
+              <img 
+                src={image} 
+                alt={title} 
+                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                referrerPolicy="no-referrer"
+              />
+            </div>
           </FadeIn>
           
           <FadeIn delay={0.2}>
