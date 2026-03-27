@@ -20,7 +20,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-black min-h-screen flex items-center">
         <div 
-          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-fixed"
+          className="absolute inset-0 z-0 bg-[url('/hero.png')] bg-cover bg-center bg-fixed"
         >
           <div className="absolute inset-0 bg-black/75 z-10"></div>
         </div>
