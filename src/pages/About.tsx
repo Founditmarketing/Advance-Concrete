@@ -19,8 +19,8 @@ export default function About() {
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-red z-0"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Concrete workers smoothing surface" 
+                  src="/residential 5.jpg" 
+                  alt="Advance Concrete Service Installation" 
                   className="relative z-10 w-full h-auto object-cover shadow-2xl"
                   referrerPolicy="no-referrer"
                 />

@@ -21,40 +21,76 @@ export default function Gallery() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <FadeIn delay={0.1} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2070&auto=format&fit=crop" alt="Finished concrete driveway" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Residential Driveways</span>
-              </div>
+              <img src="/gallery1.jpg" alt="Finished concrete driveway" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
             <FadeIn delay={0.2} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop" alt="Concrete patio" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Custom Patios</span>
-              </div>
+              <img src="/gallery7.png" alt="Concrete patio" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
             <FadeIn delay={0.3} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=2070&auto=format&fit=crop" alt="Concrete sidewalk" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Sidewalks & Walkways</span>
-              </div>
+              <img src="/gallery3.jpg" alt="Concrete sidewalk" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
             <FadeIn delay={0.4} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=2070&auto=format&fit=crop" alt="Stamped concrete" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Decorative & Stamped</span>
-              </div>
+              <img src="/gallery4.png" alt="Stamped concrete" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
             <FadeIn delay={0.5} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2071&auto=format&fit=crop" alt="Commercial concrete" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Commercial Projects</span>
-              </div>
+              <img src="/gallery5.png" alt="Commercial concrete" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
             <FadeIn delay={0.6} className="relative h-64 overflow-hidden group">
-              <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop" alt="Site grading" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="text-white font-bold uppercase tracking-wider">Site Prep & Grading</span>
-              </div>
+              <img src="/gallery6.png" alt="Site grading" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.7} className="relative h-64 overflow-hidden group">
+              <img src="/gallery2.jpg" alt="Concrete installation" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.8} className="relative h-64 overflow-hidden group">
+              <img src="/gallery8.jpg" alt="Concrete Services" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.9} className="relative h-64 overflow-hidden group">
+              <img src="/gallery9.jpg" alt="Premium Finishes" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.1} className="relative h-64 overflow-hidden group">
+              <img src="/gallery10.jpg" alt="Expert Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.2} className="relative h-64 overflow-hidden group">
+              <img src="/gallery11.png" alt="Advance Concrete Team" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.3} className="relative h-64 overflow-hidden group">
+              <img src="/gallery12.png" alt="Professional Paving" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.4} className="relative h-64 overflow-hidden group">
+              <img src="/gallery13.png" alt="Quality Craftsmanship" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.5} className="relative h-64 overflow-hidden group">
+              <img src="/gallery14.png" alt="Turnkey Concrete Solutions" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.6} className="relative h-64 overflow-hidden group">
+              <img src="/gallery15.png" alt="Durable Infrastructure" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.7} className="relative h-64 overflow-hidden group">
+              <img src="/mun1.jpg" alt="Municipal Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.8} className="relative h-64 overflow-hidden group">
+              <img src="/mun2.jpg" alt="Municipal Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.9} className="relative h-64 overflow-hidden group">
+              <img src="/mun3.jpg" alt="Municipal Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.1} className="relative h-64 overflow-hidden group">
+              <img src="/mun4.jpg" alt="Municipal Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.2} className="relative h-64 overflow-hidden group">
+              <img src="/residential1.jpg" alt="Residential Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.3} className="relative h-64 overflow-hidden group">
+              <img src="/residential2.jpg" alt="Residential Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.4} className="relative h-64 overflow-hidden group">
+              <img src="/residential4.jpg" alt="Residential Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.5} className="relative h-64 overflow-hidden group">
+              <img src="/residential 5.jpg" alt="Residential Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+            </FadeIn>
+            <FadeIn delay={0.6} className="relative h-64 overflow-hidden group">
+              <img src="/residential 6.jpg" alt="Residential Concrete Work" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
             </FadeIn>
           </div>
           

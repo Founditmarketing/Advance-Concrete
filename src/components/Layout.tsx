@@ -76,7 +76,7 @@ export default function Layout() {
             </div>
 
             <Link to="/gallery" className={`font-semibold hover:text-brand-red uppercase tracking-wide transition-all duration-300 ${isScrolled ? 'text-sm text-brand-black' : 'text-base text-white'}`}>Gallery</Link>
-            <Link to="/reviews" className={`font-semibold hover:text-brand-red uppercase tracking-wide transition-all duration-300 ${isScrolled ? 'text-sm text-brand-black' : 'text-base text-white'}`}>Reviews</Link>
+            <a href="/#reviews" className={`font-semibold hover:text-brand-red uppercase tracking-wide transition-all duration-300 ${isScrolled ? 'text-sm text-brand-black' : 'text-base text-white'}`}>Reviews</a>
             <Link to="/contact" className={`bg-brand-red text-white font-bold uppercase tracking-wide hover:bg-red-700 transition-all duration-300 ${isScrolled ? 'px-5 py-2 text-sm' : 'px-6 py-3 text-base'}`}>
               Free Estimate
             </Link>
@@ -110,7 +110,7 @@ export default function Layout() {
             </div>
 
             <Link to="/gallery" className="text-left font-semibold text-brand-black py-2 uppercase tracking-wide">Gallery</Link>
-            <Link to="/reviews" className="text-left font-semibold text-brand-black py-2 uppercase tracking-wide">Reviews</Link>
+            <a href="/#reviews" className="text-left font-semibold text-brand-black py-2 uppercase tracking-wide">Reviews</a>
             <Link to="/contact" className="bg-brand-red text-white px-6 py-3 font-bold uppercase tracking-wide text-center w-full mt-4">
               Free Estimate
             </Link>
@@ -135,7 +135,7 @@ export default function Layout() {
                 />
               </Link>
               <p className="text-gray-400 max-w-sm">
-                Your Quality Concrete Experts providing turnkey solutions with over 15 years of industry expertise. Free estimates and thorough measurements to guarantee accuracy.
+                Your Quality Concrete Experts providing turnkey solutions with over 15 years of industry expertise. Free estimates and precise measurements—because every pour starts with a plan.
               </p>
             </div>
             <div>
@@ -145,7 +145,7 @@ export default function Layout() {
                 <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
                 <li><Link to="/services/residential" className="text-gray-400 hover:text-white transition-colors">Our Services</Link></li>
                 <li><Link to="/gallery" className="text-gray-400 hover:text-white transition-colors">Gallery</Link></li>
-                <li><Link to="/reviews" className="text-gray-400 hover:text-white transition-colors">Reviews</Link></li>
+                <li><a href="/#reviews" className="text-gray-400 hover:text-white transition-colors">Reviews</a></li>
                 <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
               </ul>
             </div>
@@ -157,7 +157,7 @@ export default function Layout() {
                 <li>19780 Antioch Road<br/>Bucyrus, KS 66013</li>
               </ul>
               <div className="mt-6 flex items-center space-x-4">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-red transition-colors" aria-label="Facebook">
+                <a href="https://www.facebook.com/people/Advance-Concrete-Services/61559164107717/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-red transition-colors" aria-label="Facebook">
                   <Facebook size={24} />
                 </a>
               </div>

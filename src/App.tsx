@@ -9,7 +9,6 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
-import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
 import { Residential, Commercial, Municipal, Grading, Decorative } from './pages/Services';
 
@@ -22,7 +21,6 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="reviews" element={<Reviews />} />
           <Route path="contact" element={<Contact />} />
           <Route path="services/residential" element={<Residential />} />
           <Route path="services/commercial" element={<Commercial />} />

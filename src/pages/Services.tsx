@@ -60,7 +60,7 @@ export function Residential() {
     <ServiceLayout 
       title="Residential"
       icon={Hammer}
-      image="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2070&auto=format&fit=crop"
+      image="/residential2.jpg"
       description={
         <>
           <p>
@@ -83,7 +83,7 @@ export function Commercial() {
     <ServiceLayout 
       title="Commercial"
       icon={Building2}
-      image="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2071&auto=format&fit=crop"
+      image="/gallery3.jpg"
       description={
         <>
           <p>
@@ -106,7 +106,7 @@ export function Municipal() {
     <ServiceLayout 
       title="Municipal"
       icon={Landmark}
-      image="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=2070&auto=format&fit=crop"
+      image="/mun1.jpg"
       description={
         <>
           <p>
@@ -129,7 +129,7 @@ export function Grading() {
     <ServiceLayout 
       title="Site Prep & Grading"
       icon={Shovel}
-      image="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop"
+      image="/gallery11.png"
       description={
         <>
           <p>
@@ -152,7 +152,7 @@ export function Decorative() {
     <ServiceLayout 
       title="Decorative & Stamped"
       icon={HardHat}
-      image="https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=2070&auto=format&fit=crop"
+      image="/home services.jpg"
       description={
         <>
           <p>

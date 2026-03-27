@@ -8,11 +8,14 @@ export default function Home() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
-    { src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2070&auto=format&fit=crop", alt: "Residential Driveways" },
-    { src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop", alt: "Custom Patios" },
-    { src: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=2070&auto=format&fit=crop", alt: "Sidewalks & Walkways" },
-    { src: "https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=2070&auto=format&fit=crop", alt: "Commercial Concrete" },
-    { src: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop", alt: "Concrete Pouring" },
+    { src: "/gallery1.jpg", alt: "Residential Driveways" },
+    { src: "/gallery7.png", alt: "Custom Patios" },
+    { src: "/gallery13.png", alt: "Quality Craftsmanship" },
+    { src: "/mun1.jpg", alt: "Municipal Concrete Work" },
+    { src: "/residential2.jpg", alt: "Residential Concrete Work" },
+    { src: "/gallery4.png", alt: "Commercial Concrete" },
+    { src: "/gallery5.png", alt: "Concrete Pouring" },
+    { src: "/residential 5.jpg", alt: "Expert Concrete Finishing" },
   ];
 
   return (
@@ -32,8 +35,9 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="inline-block bg-brand-red text-white px-4 py-1 font-bold uppercase tracking-wider text-sm mb-6 shadow-lg">
-                Your Quality Concrete Experts
+              <div className="inline-flex items-center bg-brand-red text-white px-4 py-1 font-bold uppercase tracking-wider text-sm mb-6 shadow-lg">
+                <Star size={16} fill="currentColor" className="mr-2" />
+                Proudly serving the Kansas City area
               </div>
             </motion.div>
             
@@ -43,8 +47,8 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Solid Foundations.<br />
-              <span className="text-brand-red">Stunning Curb Appeal.</span>
+              Pour to Finish.<br />
+              <span className="text-brand-red">Built to Last.</span>
             </motion.h1>
             
             <motion.p 
@@ -63,7 +67,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               <p className="text-white font-bold text-lg md:text-xl">
-                Free estimates and thorough measurements to guarantee accuracy.
+                Free estimates and precise measurements—because every pour starts with a plan.
               </p>
             </motion.div>
 
@@ -94,11 +98,11 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <FadeIn className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+            <FadeIn className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl group">
               <img 
                 src="/home about.jpg" 
                 alt="Advance Concrete Service Team" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-black/80 via-transparent to-transparent"></div>
@@ -139,13 +143,13 @@ export default function Home() {
       {/* Services Overview Section */}
       <section className="relative py-20 md:py-32 bg-brand-black">
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <div className="absolute inset-0 bg-brand-black/50 z-10"></div>
           <img 
-            src="https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=2070&auto=format&fit=crop" 
-            alt="Concrete construction background" 
+            src="/home services2.png" 
+            alt="Concrete Services Background" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
+          <div className="absolute inset-0 bg-gradient-to-b from-brand-black/90 via-brand-black/50 to-brand-black/90 z-10"></div>
         </div>
         
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -253,9 +257,6 @@ export default function Home() {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                   referrerPolicy="no-referrer" 
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white font-bold uppercase tracking-wider text-sm md:text-base">{image.alt}</span>
-                </div>
               </div>
             ))}
           </div>
@@ -269,8 +270,18 @@ export default function Home() {
       </section>
 
       {/* Reviews Preview Section */}
-      <section className="py-20 md:py-28 bg-brand-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="reviews" className="relative py-20 md:py-28 bg-brand-black text-white">
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <img 
+            src="/gallery13.png" 
+            alt="Customer reviews background" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-brand-black/90 via-brand-black/50 to-brand-black/90 z-10"></div>
+        </div>
+        
+        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-brand-red font-bold uppercase tracking-widest text-sm mb-2">Reviews</h2>
             <h3 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 uppercase">
@@ -285,9 +296,9 @@ export default function Home() {
             ></motion.div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <FadeIn delay={0.1} className="bg-gray-900 p-8 border-t-4 border-brand-red relative hover:-translate-y-2 transition-transform duration-300 shadow-xl group">
-              <Quote className="absolute top-6 right-6 text-gray-800 group-hover:text-brand-red/20 transition-colors duration-300" size={48} />
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <FadeIn delay={0.1} className="bg-white p-8 border-t-4 border-brand-red relative hover:-translate-y-2 transition-transform duration-300 shadow-xl group">
+              <Quote className="absolute top-6 right-6 text-gray-100 group-hover:text-brand-red/20 transition-colors duration-300" size={48} />
               <div className="flex text-brand-red mb-4">
                 <Star fill="currentColor" size={20} />
                 <Star fill="currentColor" size={20} />
@@ -295,14 +306,14 @@ export default function Home() {
                 <Star fill="currentColor" size={20} />
                 <Star fill="currentColor" size={20} />
               </div>
-              <p className="text-gray-300 mb-6 italic relative z-10">
+              <p className="text-gray-600 mb-6 italic relative z-10">
                 "Advance Concrete did an amazing job on our new stamped patio. The crew was professional, family-friendly, and the attention to detail was incredible. Highly recommend!"
               </p>
-              <p className="font-bold uppercase tracking-wider text-sm text-white">- Sarah M.</p>
+              <p className="font-bold uppercase tracking-wider text-sm text-brand-black">- Sarah M.</p>
             </FadeIn>
 
-            <FadeIn delay={0.2} className="bg-gray-900 p-8 border-t-4 border-brand-red relative hover:-translate-y-2 transition-transform duration-300 shadow-xl group">
-              <Quote className="absolute top-6 right-6 text-gray-800 group-hover:text-brand-red/20 transition-colors duration-300" size={48} />
+            <FadeIn delay={0.2} className="bg-white p-8 border-t-4 border-brand-red relative hover:-translate-y-2 transition-transform duration-300 shadow-xl group">
+              <Quote className="absolute top-6 right-6 text-gray-100 group-hover:text-brand-red/20 transition-colors duration-300" size={48} />
               <div className="flex text-brand-red mb-4">
                 <Star fill="currentColor" size={20} />
                 <Star fill="currentColor" size={20} />
@@ -310,17 +321,37 @@ export default function Home() {
                 <Star fill="currentColor" size={20} />
                 <Star fill="currentColor" size={20} />
               </div>
-              <p className="text-gray-300 mb-6 italic relative z-10">
+              <p className="text-gray-600 mb-6 italic relative z-10">
                 "We hired them for a large commercial parking lot. They handled everything from site clearing to the final finish. True turnkey service and great communication."
               </p>
-              <p className="font-bold uppercase tracking-wider text-sm text-white">- David T.</p>
+              <p className="font-bold uppercase tracking-wider text-sm text-brand-black">- David T.</p>
+            </FadeIn>
+
+            <FadeIn delay={0.3} className="bg-white p-8 border-t-4 border-brand-red relative hover:-translate-y-2 transition-transform duration-300 shadow-xl group">
+              <Quote className="absolute top-6 right-6 text-gray-100 group-hover:text-brand-red/20 transition-colors duration-300" size={48} />
+              <div className="flex text-brand-red mb-4">
+                <Star fill="currentColor" size={20} />
+                <Star fill="currentColor" size={20} />
+                <Star fill="currentColor" size={20} />
+                <Star fill="currentColor" size={20} />
+                <Star fill="currentColor" size={20} />
+              </div>
+              <p className="text-gray-600 mb-6 italic relative z-10">
+                "Best concrete contractors in KC. The pricing was transparent, they showed up exactly when promised, and the finished driveway exceeds our expectations."
+              </p>
+              <p className="font-bold uppercase tracking-wider text-sm text-brand-black">- Mark R.</p>
             </FadeIn>
           </div>
 
           <div className="mt-12 text-center">
-            <Link to="/reviews" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-brand-black px-8 py-3 font-bold uppercase tracking-widest transition-colors inline-block">
+            <a 
+              href="https://www.google.com/maps/place/Advance+Concrete+Services/@38.7694519,-94.690037,705m/data=!3m2!1e3!4b1!4m6!3m5!1s0x87c0c75feec6ef03:0xd95c79e1c7c971d7!8m2!3d38.7694519!4d-94.6874621!16s%2Fg%2F11x60l9rxj!5m1!1e3?entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-brand-black px-8 py-3 font-bold uppercase tracking-widest transition-colors inline-block"
+            >
               Read More Reviews
-            </Link>
+            </a>
           </div>
         </div>
       </section>

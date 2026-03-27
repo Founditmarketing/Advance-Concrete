@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook } from 'lucide-react';
 import { FadeIn } from '../components/FadeIn';
 import { toast } from 'sonner';
 
@@ -60,6 +60,16 @@ export default function Contact() {
                   <div>
                     <h4 className="font-bold text-brand-black uppercase tracking-wide mb-1">Location</h4>
                     <p className="text-gray-600 text-lg font-medium">19780 Antioch Road<br/>Bucyrus, KS 66013</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-white shadow-sm flex items-center justify-center rounded-full mr-4 shrink-0">
+                    <Facebook className="text-brand-red" size={24} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-brand-black uppercase tracking-wide mb-1">Follow Us</h4>
+                    <a href="https://www.facebook.com/people/Advance-Concrete-Services/61559164107717/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-brand-red transition-colors text-lg font-medium">Advance Concrete Services</a>
                   </div>
                 </div>
               </div>
